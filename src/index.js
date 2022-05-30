@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -11,7 +10,33 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// class Eleve{
+//   constructor(age, name){
+//     this.age = age;
+//     this.name = name;
+//   }
+//   parler(a){
+//     console.log(this.name+" "+a)
+//   }
+// }
+
+// let e = new Eleve(12, "hane")
+// console.log("age : "+e.name)
+
+// //variables
+// let a = 0
+// var b = ""
+// const c = 2.3
+// //functions
+// function manger(a){
+//   console.log(a)
+// }
+// manger(b)
+
+// let eleve = new Eleve(20, "sofia")
+// eleve.parler(2)
+// //classes
+// //difference between Class.method and object.method
+// //loops 
+
+// //conditions
